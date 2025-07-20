@@ -21,7 +21,6 @@ int decompress (file_name_t from, file_name_t dst){
 
 
 int main(void){
-	printf("not ready yet !!");
-	return 0;
+	printf("not ready yet !!\n");
 	file_t file;
 }
