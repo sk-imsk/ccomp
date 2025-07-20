@@ -19,6 +19,6 @@ int decompress (file_name_t from, file_name_t dst){
 
 
 int main(void){
-	compress("135", "23");
+	printf("not ready yet !!");
 	return 0;
 }
