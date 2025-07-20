@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <sys/types.h>
-#include "include/main.h"
+#include "main.h"
 #define PROGRAM_NAME "ccomp"
 typedef char* file_name_t;
 
