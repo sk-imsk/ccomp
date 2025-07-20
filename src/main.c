@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <sys/types.h>
+#include "main.h"
+#define PROGRAM_NAME "ccomp"
 typedef char* file_name_t;
 
 
@@ -21,4 +23,5 @@ int decompress (file_name_t from, file_name_t dst){
 int main(void){
 	printf("not ready yet !!");
 	return 0;
+	file_t file;
 }
