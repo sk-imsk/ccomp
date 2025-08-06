@@ -1,0 +1,1 @@
+int compress(char* filename);
