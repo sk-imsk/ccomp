@@ -4,17 +4,18 @@
 #include <string.h>
 
 int compress(char* filename){
-unsigned long flags;
+//unsigned long flags; will be added if needed
 char buffer[100] = {0};
-
 FILE *read = fopen(filename, "r");
-FILE *out = fopen("out.comp" "w");
+FILE *out = fopen("out.comp" "r");
+if (out != NULL){
+return EEXIST;
+}
+out = NULL; out = fopen("out.comp", "w");
+
 if (read == NULL || out == NULL){
 return EPERM;
 }
 
 
-(void)fread(buffer, 100, 1, out);
-if (strncmp(buffer, "\0", 1)){
-return EEXIST;
-}
+
