@@ -3,10 +3,11 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <sys/types.h>
-#include "main.h"
+#include "comp.h"
 #define PROGRAM_NAME "ccomp"
 
 
 int main(void){
 	printf("not ready yet !!\n");
+	return 0;
 }
